@@ -23,7 +23,6 @@ export default function PubPage({ params }: PubPageProps) {
         <h1>{pub.name}</h1>
         <p>{pub.address}</p>
       </header>
-      <section className="photo-placeholder">Photo coming soon</section>
       <PubTabs pub={pub} />
     </main>
   );

@@ -160,29 +160,6 @@ a {
   gap: 8px;
 }
 
-.pub-header h1 {
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.pub-header p {
-  color: #475467;
-}
-
-.photo-placeholder {
-  background: #eef1f4;
-  border: 1px solid #e4e7ec;
-  border-radius: 20px;
-  min-height: 220px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #667085;
-  font-size: 16px;
-  text-align: center;
-  padding: 24px;
-}
-
 .back-link {
   font-size: 14px;
   color: #475467;
@@ -201,7 +178,6 @@ a {
   padding: 8px 14px;
   font-size: 14px;
   cursor: pointer;
-  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
 .tab-button.active {

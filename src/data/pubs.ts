@@ -6,7 +6,6 @@ export type Pub = {
   terraceOrientation?: string;
   notes?: string;
   heaters: string;
-  needsVerification: boolean;
 };
 
 const slugify = (value: string) =>
@@ -29,7 +28,6 @@ export const pubs: Pub[] = [
     terraceOrientation: "S",
     notes: "Walled garden faces N; terrace faces S",
     heaters: "Unknown",
-    needsVerification: true,
   }),
   withSlug({
     name: "The Forester",
@@ -37,7 +35,6 @@ export const pubs: Pub[] = [
     gardenOrientation: "W",
     terraceOrientation: "S",
     heaters: "Unknown",
-    needsVerification: true,
   }),
   withSlug({
     name: "The Green W7",
@@ -45,27 +42,23 @@ export const pubs: Pub[] = [
     gardenOrientation: "W",
     terraceOrientation: "S",
     heaters: "Unknown",
-    needsVerification: true,
   }),
   withSlug({
     name: "The Fox",
     address: "Green Ln, London W7 2PJ",
     gardenOrientation: "SE",
     heaters: "Unknown",
-    needsVerification: true,
   }),
   withSlug({
     name: "The Viaduct",
     address: "221 Uxbridge Rd, London W7 3TD",
     gardenOrientation: "NW",
     heaters: "Unknown",
-    needsVerification: true,
   }),
   withSlug({
     name: "The King’s Arms",
     address: "110 Uxbridge Rd, London W7 3SU",
     gardenOrientation: "S",
     heaters: "Unknown",
-    needsVerification: true,
   }),
 ];

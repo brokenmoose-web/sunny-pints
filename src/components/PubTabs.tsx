@@ -35,6 +35,14 @@ export default function PubTabs({ pub }: PubTabsProps) {
             <div>
               <strong>Address:</strong> {pub.address}
             </div>
+            <div>
+              <strong>Garden orientation:</strong> {pub.gardenOrientation}
+            </div>
+            {pub.terraceOrientation ? (
+              <div>
+                <strong>Terrace orientation:</strong> {pub.terraceOrientation}
+              </div>
+            ) : null}
             {pub.notes ? (
               <div>
                 <strong>Notes:</strong> {pub.notes}
@@ -55,10 +63,6 @@ export default function PubTabs({ pub }: PubTabsProps) {
             ) : null}
             <div>
               <strong>Heaters:</strong> {pub.heaters}
-            </div>
-            <div>
-              <strong>Needs verification:</strong>{" "}
-              {pub.needsVerification ? "Yes" : "No"}
             </div>
             {pub.notes ? (
               <div>
